@@ -2,20 +2,20 @@
 long int fact(int n);
 int main()
 {
-int n;
+int num;
 printf("enter number");
-scanf("%d",&n);
-printf("factorial of numberis %ld" ,fact(n));	
+scanf("%d",&num);
+printf("factorial of numberis %ld" ,fact(num));	
 }
-long int fact(int n)
+long int fact(int num)
 {
-if(n<=1)
+if(num<=1)
 {
 return(01);
 }
 else
 {
-n=n*fact(n-1);
-return(n);	
+num=num*fact(num-1);
+return(num);	
 }
 }
